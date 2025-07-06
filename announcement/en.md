@@ -1,21 +1,24 @@
 ---
 comment: If you can see this, it means you need to update your version (v1.3.7+)
-alertLevel: high
+alertLevel: medium
 ---
 
 ## Akari Announcement
 
-Extra! Extra! Announcements you don't want to miss!
+The latest version is v1.3.7.
 
-v1.3.7 has been released, mainly focusing on bug fixes. [See what's new](akari://renderer-link/overlays/release-modal).
+## <span class="flow-gradient-text-9e2b3c0b">(New)</span> Current Known Issues
+
+1. Some places incorrectly display English (e.g., "auto-select" in the chat prompts `auto-select-main.delayed-ban`).
+2. The application still consumes a lot of CPU even when **idle**. This phenomenon cannot be reproduced on the development side. If you have a stable case that can be reproduced, please enter the group chat to feedback.
 
 ### Community & Feedback Channels
 
-|                                                                            | Portal                                      | Notes                                                          |
-| -------------------------------------------------------------------------- | ------------------------------------------- | -------------------------------------------------------------- |
-| <span class="flow-gradient-text-9e2b3c0b">QQ Group (2nd Base · New)</span> | [543703181](https://qm.qq.com/q/WEmiNuHBuY) | Passcode: **akari**, new gathering spot.</span>                |
-| QQ Group (1st Base)                                                        | [301157623](https://qm.qq.com/q/F1Xv85etlm) | Passcode: **akari**, inactive users will be removed regularly. |
-| Telegram                                                                   | [@LeagueAkari](https://t.me/leagueakari)    | Backup group and haven, not very active.                       |
+|                           | Portal                                      | Notes                                                          |
+| ------------------------- | ------------------------------------------- | -------------------------------------------------------------- |
+| QQ Group (2nd Base · New) | [543703181](https://qm.qq.com/q/WEmiNuHBuY) | Passcode: **akari**, new gathering spot.</span>                |
+| QQ Group (1st Base)       | [301157623](https://qm.qq.com/q/F1Xv85etlm) | Passcode: **akari**, inactive users will be removed regularly. |
+| Telegram                  | [@LeagueAkari](https://t.me/leagueakari)    | Backup group and haven, not very active.                       |
 
 ### About League Akari
 

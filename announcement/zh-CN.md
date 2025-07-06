@@ -1,21 +1,24 @@
 ---
 comment: 如果你能看到这个，说明你需要更新版本了 (v1.3.7+)
-alertLevel: high
+alertLevel: medium
 ---
 
 ## Akari 公告
 
-号外，号外！不看一定后悔的公告！
+目前的最新版本是 v1.3.7。
 
-v1.3.7 已发布，主要涉及到 BUG 修复。[查看更新内容](akari://renderer-link/overlays/release-modal)。
+## <span class="flow-gradient-text-9e2b3c0b">(新)</span> 当前已知问题
+
+1. 一些地方错误地展示英文 (如 「自动选择」 在聊天框中提示 `auto-select-main.delayed-ban` 等)
+2. 在**空载**时，应用仍大量占用 CPU。此现象暂无法在开发侧复现，若有可稳定复现的案例，请务必进入群聊反馈。
 
 ### 聚集地 & 反馈渠道之一
 
-|                                                                 | 传送门                                      | 备注                                 |
-| --------------------------------------------------------------- | ------------------------------------------- | ------------------------------------ |
-| <span class="flow-gradient-text-9e2b3c0b">QQ 群 (二号据点 · 新) | [543703181](https://qm.qq.com/q/WEmiNuHBuY) | 口令 **akari**，新的据点。</span>    |
-| QQ 群 (一号据点)                                                | [301157623](https://qm.qq.com/q/F1Xv85etlm) | 口令 **akari**，会定期清理潜水人员。 |
-| Telegram                                                        | [@LeagueAkari](https://t.me/leagueakari)    | 分身群兼避难所，通常不活跃。         |
+|                       | 传送门                                      | 备注                                 |
+| --------------------- | ------------------------------------------- | ------------------------------------ |
+| QQ 群 (二号据点 · 新) | [543703181](https://qm.qq.com/q/WEmiNuHBuY) | 口令 **akari**，新的据点。           |
+| QQ 群 (一号据点)      | [301157623](https://qm.qq.com/q/F1Xv85etlm) | 口令 **akari**，会定期清理潜水人员。 |
+| Telegram              | [@LeagueAkari](https://t.me/leagueakari)    | 分身群兼避难所，通常不活跃。         |
 
 ### 关于 League Akari ～(∠・ω< )⌒★
 
