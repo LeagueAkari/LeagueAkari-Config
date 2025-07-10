@@ -16,7 +16,7 @@ The latest version is v1.3.7.
 
 |                           | Portal                                      | Notes                                                          |
 | ------------------------- | ------------------------------------------- | -------------------------------------------------------------- |
-| QQ Group (2nd Base · New) | [543703181](https://qm.qq.com/q/WEmiNuHBuY) | Passcode: **akari**, new gathering spot.</span>                |
+| QQ Group (2nd Base · New) | [543703181](https://qm.qq.com/q/WEmiNuHBuY) | Passcode: **akari**, new gathering spot.                       |
 | QQ Group (1st Base)       | [301157623](https://qm.qq.com/q/F1Xv85etlm) | Passcode: **akari**, inactive users will be removed regularly. |
 | Telegram                  | [@LeagueAkari](https://t.me/leagueakari)    | Backup group and haven, not very active.                       |
 
@@ -26,11 +26,13 @@ It is **free** and **open source**, licensed under GPL-3.0.
 
 Like this project? Go to [GitHub](https://github.com/LeagueAkari/LeagueAkari) and give us a free ⭐ to support our ongoing development!
 
-#### Future Statement on Closed Source or Delayed Open Source
+#### Delayed Open Source Notice
 
-League Akari has always adhered to the spirit of open source and sharing, striving to provide high-quality tools for League of Legends players. However, we have recently discovered unauthorized repackaging and commercial distribution of our software in the market. Some individuals or organizations have even modified our code and redistributed it as paid services. Such actions severely undermine the legitimate rights and interests of both our team and users.
+The League Akari project has always upheld the spirit of open source and sharing, striving to provide high-quality tools for League of Legends players. However, we have recently discovered unauthorized repackaging and sales in the market. Some individuals or organizations have even modified our work and distributed it for a fee. Such actions seriously undermine the legitimate rights and interests of both our team and the wider user community.
 
-In response, the League Akari team is actively exploring various strategies, including closed source releases or delayed open-sourcing, to better protect our intellectual property and community interests. Further details will be announced in due course. Thank you for your understanding and support.
+From now on, the League Akari project’s source code will only be released up to a few versions behind the latest. The most recent versions will no longer be made public immediately, and only selected updates will be released after a period of time.
+
+Thank you for your understanding and continued support!
 
 <style>
   .flow-gradient-text-9e2b3c0b {
