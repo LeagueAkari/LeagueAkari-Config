@@ -1,6 +1,6 @@
 ---
 comment: If you can see this, it means you need to update your version (v1.3.7+)
-alertLevel: medium
+alertLevel: low
 ---
 
 ## Akari Announcement
@@ -16,8 +16,8 @@ The latest version is v1.3.7.
 
 |                           | Portal                                      | Notes                                                          |
 | ------------------------- | ------------------------------------------- | -------------------------------------------------------------- |
-| QQ Group (2nd Base · New) | [543703181](https://qm.qq.com/q/WEmiNuHBuY) | Passcode: **akari**, new gathering spot.                       |
 | QQ Group (1st Base)       | [301157623](https://qm.qq.com/q/F1Xv85etlm) | Passcode: **akari**, inactive users will be removed regularly. |
+| QQ Group (2nd Base · New) | [543703181](https://qm.qq.com/q/WEmiNuHBuY) | Passcode: **akari**, new gathering spot.                       |
 | Telegram                  | [@LeagueAkari](https://t.me/leagueakari)    | Backup group and haven, not very active.                       |
 
 ### About League Akari

@@ -18,7 +18,7 @@
     },
     {
       "id": "lol-prophet-1",
-      "name": "馬説",
+      "name": "上等马",
       "type": "ongoing-game",
       "version": 10,
       "path": "/config/in-game-send/templates/lol-prophet.js",

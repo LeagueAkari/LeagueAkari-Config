@@ -9,7 +9,7 @@ function getMessages(env) {
     .filter((m) => env.summoner[m])
     .map((m) => env.summoner[m].data)
     .filter((s) => s.privacy === 'PRIVATE')
-    .filter((m) => !includeSelf || m.puuid !== env.selfPuuid)
+    .filter((m) => includeSelf || m.puuid !== env.selfPuuid)
 
   if (rats.length === 0) {
     switch (env.target) {

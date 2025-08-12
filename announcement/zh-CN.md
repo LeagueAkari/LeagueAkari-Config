@@ -1,6 +1,6 @@
 ---
 comment: 如果你能看到这个，说明你需要更新版本了 (v1.3.7+)
-alertLevel: medium
+alertLevel: low
 ---
 
 ## Akari 公告
@@ -16,8 +16,8 @@ alertLevel: medium
 
 |                       | 传送门                                      | 备注                                 |
 | --------------------- | ------------------------------------------- | ------------------------------------ |
-| QQ 群 (二号据点 · 新) | [543703181](https://qm.qq.com/q/WEmiNuHBuY) | 口令 **akari**，新的据点。           |
 | QQ 群 (一号据点)      | [301157623](https://qm.qq.com/q/F1Xv85etlm) | 口令 **akari**，会定期清理潜水人员。 |
+| QQ 群 (二号据点 · 新) | [543703181](https://qm.qq.com/q/WEmiNuHBuY) | 口令 **akari**，新的据点。           |
 | Telegram              | [@LeagueAkari](https://t.me/leagueakari)    | 分身群兼避难所，通常不活跃。         |
 
 ### 关于 League Akari ～(∠・ω< )⌒★
