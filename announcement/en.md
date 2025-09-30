@@ -5,12 +5,7 @@ alertLevel: low
 
 ## Akari Announcement
 
-The latest version is v1.3.7.
-
-## <span class="flow-gradient-text-9e2b3c0b">(New)</span> Current Known Issues
-
-1. Some places incorrectly display English (e.g., "auto-select" in the chat prompts `auto-select-main.delayed-ban`).
-2. The application still consumes a lot of CPU even when **idle**. This phenomenon cannot be reproduced on the development side. If you have a stable case that can be reproduced, please enter the group chat to feedback.
+The latest version is v1.3.7. The next major version will be released **no later than December 2025**.
 
 ### Community & Feedback Channels
 
