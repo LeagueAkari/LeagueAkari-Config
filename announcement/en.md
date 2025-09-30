@@ -3,9 +3,14 @@ comment: If you can see this, it means you need to update your version (v1.3.7+)
 alertLevel: low
 ---
 
-## Akari Announcement
+## Known Issues & Release Timeline
 
 The latest version is v1.3.7. The next major version will be released **no later than December 2025**.
+
+1. Some places incorrectly display English (e.g., "Auto-select" in chat prompts `auto-select-main.delayed-ban`).
+2. The application still consumes a significant amount of CPU even when idle. This phenomenon cannot be reproduced on the development side, please give feedback if you have a stable reproduction case.
+3. Currently, the player mark export and import logic is problematic. Known to fail when the data volume is too large (or in other cases).
+4. Currently, wmic has been enabled by Microsoft, causing the method of querying the command line using wmic to become invalid, affecting the relevant functions of connecting to the client and detecting the installation location. The next version will use modern WMI APIs.
 
 ### Community & Feedback Channels
 
