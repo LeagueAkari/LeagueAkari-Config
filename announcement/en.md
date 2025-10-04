@@ -1,24 +1,30 @@
 ---
 comment: If you can see this, it means you need to update your version (v1.3.7+)
-alertLevel: low
+alertLevel: medium
 ---
+
+## <span class="flow-gradient-text-9e2b3c0b">(New)</span> Announcement Board (Released on 2025-10-04 16:46)
+
+When using TCLS to start the Tencent Client, it automatically adds `startup_runner.exe` to the startup items, causing 开机启动. This issue is not related to League Akari.
+
+You can manually disable `startup_runner.exe` from the startup items using the **Startup** tab in **Task Manager**.
 
 ## Known Issues & Release Timeline
 
 The latest version is v1.3.7. The next major version will be released **no later than December 2025**.
 
-1. Some places incorrectly display English (e.g., "Auto-select" in chat prompts `auto-select-main.delayed-ban`).
-2. The application still consumes a significant amount of CPU even when idle. This phenomenon cannot be reproduced on the development side, please give feedback if you have a stable reproduction case.
-3. Currently, the player mark export and import logic is problematic. Known to fail when the data volume is too large (or in other cases).
-4. Currently, wmic has been deprecated by Microsoft, causing the method of querying the command line using wmic to become invalid, affecting the relevant functions of connecting to the client and detecting the installation location. The next version will use modern WMI APIs.
+- Some places incorrectly display English (e.g., "Auto-select" in chat prompts `auto-select-main.delayed-ban`).
+- The application still consumes a significant amount of CPU even when idle. This phenomenon cannot be reproduced on the development side, please give feedback if you have a stable reproduction case.
+- Currently, the player mark export and import logic is problematic. Known to fail when the data volume is too large (or in other cases).
+- Currently, wmic has been deprecated by Microsoft, causing the method of querying the command line using wmic to become invalid, affecting the relevant functions of connecting to the client and detecting the installation location. The next version will use modern WMI APIs.
 
 ### Community & Feedback Channels
 
-|                           | Portal                                      | Notes                                                          |
-| ------------------------- | ------------------------------------------- | -------------------------------------------------------------- |
-| QQ Group (1st Base)       | [301157623](https://qm.qq.com/q/F1Xv85etlm) | Passcode: **akari**, inactive users will be removed regularly. |
-| QQ Group (2nd Base · New) | [543703181](https://qm.qq.com/q/WEmiNuHBuY) | Passcode: **akari**, new gathering spot.                       |
-| Telegram                  | [@LeagueAkari](https://t.me/leagueakari)    | Backup group and haven, not very active.                       |
+|                           | Portal                                      | Notes                                                                          |
+| ------------------------- | ------------------------------------------- | ------------------------------------------------------------------------------ |
+| QQ Group (1st Base)       | [301157623](https://qm.qq.com/q/F1Xv85etlm) | Passcode: **akari**, this group does not welcome cheaters.                     |
+| QQ Group (2nd Base · New) | [543703181](https://qm.qq.com/q/WEmiNuHBuY) | Passcode: **akari**, new gathering spot. this group does not welcome cheaters. |
+| Telegram                  | [@LeagueAkari](https://t.me/leagueakari)    | Backup group and haven, not very active.                                       |
 
 ### About League Akari
 
