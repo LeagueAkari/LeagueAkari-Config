@@ -24,7 +24,7 @@ The latest version is v1.3.7. The next major version will be released **no later
 | ------------------------- | ------------------------------------------- | ------------------------------------------------------------------------------ |
 | QQ Group (1st Base)       | [301157623](https://qm.qq.com/q/F1Xv85etlm) | Passcode: **akari**, this group does not welcome cheaters.                     |
 | QQ Group (2nd Base · New) | [543703181](https://qm.qq.com/q/WEmiNuHBuY) | Passcode: **akari**, new gathering spot. this group does not welcome cheaters. |
-| Telegram                  | [@LeagueAkari](https://t.me/leagueakari)    | Backup group and haven, not very active.                                       |
+| Telegram                  | [@KawaiiAkari](https://t.me/KawaiiAkari)    | Backup group and haven, not very active.                                       |
 
 ### About League Akari
 
