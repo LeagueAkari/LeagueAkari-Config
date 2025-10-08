@@ -1,11 +1,15 @@
 ---
 comment: If you can see this, it means you need to update your version (v1.3.7+)
-alertLevel: medium
+alertLevel: high
 ---
 
-## <span class="flow-gradient-text-9e2b3c0b">(New)</span> Announcement Board (Released on 2025-10-04 16:46)
+## <span class="flow-gradient-text-9e2b3c0b">(New)</span> Announcement Board (Released on 2025-10-08 14:52)
 
-When using TCLS to start the Tencent Client, it automatically adds `startup_runner.exe` to the startup items, causing 开机启动. This issue is not related to League Akari.
+Currently, it is not possible to use in Taiwan server (TW2), as it is not possible to obtain player information during the match. This is suspected to be due to Riot's restrictions on the Taiwan server. This may be a signal, please prepare for the possibility that player information may not be available in any region server in the future.
+
+---
+
+When using TCLS to start the Tencent Client, it automatically adds `startup_runner.exe` to the startup items, causing self-starting. This issue is not related to League Akari.
 
 You can manually disable `startup_runner.exe` from the startup items using the **Startup** tab in **Task Manager**.
 

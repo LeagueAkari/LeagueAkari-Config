@@ -1,9 +1,13 @@
 ---
 comment: 如果你能看到这个，说明你需要更新版本了 (v1.3.7+)
-alertLevel: medium
+alertLevel: high
 ---
 
-## <span class="flow-gradient-text-9e2b3c0b">(新)</span> 公告板 (发布于 2025-10-04 16：46)
+## <span class="flow-gradient-text-9e2b3c0b">(新)</span> 公告板 (发布于 2025-10-08 14:52)
+
+目前无法在台湾服（TW2）使用，无法获取到对局中的玩家信息，疑似 Riot 对台湾服进行了限制。这可能是一个信号，请做好未来在任何地区服都可能无法获取到玩家信息的准备。
+
+---
 
 在使用 TCLS 启动腾讯服客户端时，其会自动将 `startup_runner.exe` 加入到自启项，导致开机启动。此问题与 League Akari 无关。
 
