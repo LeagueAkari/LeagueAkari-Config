@@ -1,13 +1,11 @@
 ---
 comment: If you can see this, it means you need to update your version (v1.3.7+)
-alertLevel: high
+alertLevel: low
 ---
 
-## <span class="flow-gradient-text-9e2b3c0b">(New)</span> Announcement Board (Released on 2025-10-09 10:17)
+## <span class="flow-gradient-text-9e2b3c0b">(New)</span> Announcement Board (Released on 2025-11-13 23:00)
 
-Riot has restricted personal information, and now it is not possible to read player identity information during the game.
-
-Due to this restriction, the "Ongoing Game" related functions will be removed in the future.
+The ongoing game analysis series functions can still be used, but in the official server, some player information will not be available in the active game.
 
 ---
 
@@ -17,7 +15,7 @@ You can manually disable `startup_runner.exe` from the startup items using the *
 
 ## Known Issues & Release Timeline
 
-The latest version is v1.3.7. The next major version will be released **no later than December 2025**.
+The latest version is v1.3.7. The next major version will be released ~~no later than December 2025~~ by the end of 2025 (yes, it's another delay).
 
 - Some places incorrectly display English (e.g., "Auto-select" in chat prompts `auto-select-main.delayed-ban`).
 - The application still consumes a significant amount of CPU even when idle. This phenomenon cannot be reproduced on the development side, please give feedback if you have a stable reproduction case.
