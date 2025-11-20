@@ -3,7 +3,9 @@ comment: If you can see this, it means you need to update your version (v1.3.7+)
 alertLevel: low
 ---
 
-## <span class="flow-gradient-text-9e2b3c0b">(New)</span> Announcement Board (Released on 2025-11-13 23:00)
+## <span class="flow-gradient-text-9e2b3c0b">(New)</span> Announcement Board (Released on 2025-11-20 12:48)
+
+Currently, due to client updates, LCU Spectate is temporarily unavailable, and will be fixed in the next version.
 
 The ongoing game analysis series functions can still be used, but in the official server, some player information will not be available in the active game.
 
