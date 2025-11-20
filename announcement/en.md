@@ -1,13 +1,13 @@
 ---
 comment: If you can see this, it means you need to update your version (v1.3.7+)
-alertLevel: medium
+alertLevel: high
 ---
 
-## <span class="flow-gradient-text-9e2b3c0b">(New)</span> Announcement Board (Released on 2025-11-20 12:48)
+## <span class="flow-gradient-text-9e2b3c0b">(New)</span> Announcement Board (Released on 2025-11-20 22:43)
 
-Currently, due to client updates, LCU Spectate is temporarily unavailable, and will be fixed in the next version.
+Some players may not be visible in the "Games" section. This is because the player has enabled "Broadcaster Mode", and currently, League Akari cannot obtain information about players who have enabled broadcaster mode.
 
-The ongoing game analysis series functions can still be used, but in the official server, some player information will not be available in the active game.
+Plus, due to client updates, LCU Spectate is temporarily unavailable, and will be fixed in the next version.
 
 ---
 
