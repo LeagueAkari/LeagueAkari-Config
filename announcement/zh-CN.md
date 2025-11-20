@@ -1,6 +1,6 @@
 ---
 comment: 如果你能看到这个，说明你需要更新版本了 (v1.3.7+)
-alertLevel: low
+alertLevel: medium
 ---
 
 ## <span class="flow-gradient-text-9e2b3c0b">(新)</span> 公告板 (发布于 2025-11-20 12:48)

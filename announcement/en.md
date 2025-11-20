@@ -1,6 +1,6 @@
 ---
 comment: If you can see this, it means you need to update your version (v1.3.7+)
-alertLevel: low
+alertLevel: medium
 ---
 
 ## <span class="flow-gradient-text-9e2b3c0b">(New)</span> Announcement Board (Released on 2025-11-20 12:48)
