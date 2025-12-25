@@ -1,50 +1,36 @@
 ---
 comment: If you can see this, it means you need to update your version (v1.3.7+)
-alertLevel: low
+alertLevel: high
 ---
 
-## <span class="flow-gradient-text-9e2b3c0b">(New)</span> Announcement Board (Released on 2025-11-20 22:43)
+## <span class="flow-gradient-text-9e2b3c0b">(New)</span> Announcement Board (Released on 2025-12-25 22:00)
 
-Some players may not be visible in the "Games" section. This is because the player has enabled "Broadcaster Mode", and currently, League Akari cannot obtain information about players who have enabled broadcaster mode.
+Merry Christmas.
 
-Plus, due to client updates, LCU Spectate is temporarily unavailable, and will be fixed in the next version.
-
----
-
-When using TCLS to start the Tencent Client, it automatically adds `startup_runner.exe` to the startup items, causing self-starting. This issue is not related to League Akari.
-
-You can manually disable `startup_runner.exe` from the startup items using the **Startup** tab in **Task Manager**.
-
-## Known Issues & Release Timeline
-
-The latest version is v1.3.7. The next major version will be released ~~no later than December 2025~~ by the end of 2025 (yes, it's another delay).
-
-- Some places incorrectly display English (e.g., "Auto-select" in chat prompts `auto-select-main.delayed-ban`).
-- The application still consumes a significant amount of CPU even when idle. This phenomenon cannot be reproduced on the development side, please give feedback if you have a stable reproduction case.
-- Currently, the player mark export and import logic is problematic. Known to fail when the data volume is too large (or in other cases).
-- Currently, wmic has been deprecated by Microsoft, causing the method of querying the command line using wmic to become invalid, affecting the relevant functions of connecting to the client and detecting the installation location. The next version will use modern WMI APIs.
+The latest version is currently v1.4.0, updated on 2025-12-25.
 
 ### Community & Feedback Channels
 
-|                           | Portal                                      | Notes                                                                          |
-| ------------------------- | ------------------------------------------- | ------------------------------------------------------------------------------ |
-| QQ Group (1st Base)       | [301157623](https://qm.qq.com/q/F1Xv85etlm) | Passcode: **akari**, this group does not welcome cheaters.                     |
-| QQ Group (2nd Base · New) | [543703181](https://qm.qq.com/q/WEmiNuHBuY) | Passcode: **akari**, new gathering spot. this group does not welcome cheaters. |
-| Telegram                  | [@KawaiiAkari](https://t.me/KawaiiAkari)    | Backup group and haven, not very active.                                       |
+|                       | Portal                                      | Notes                                                      |
+| --------------------- | ------------------------------------------- | ---------------------------------------------------------- |
+| QQ Group (1st Base)   | [301157623](https://qm.qq.com/q/F1Xv85etlm) | Passcode: **akari**                                        |
+| QQ Group (2nd Base · New) | [543703181](https://qm.qq.com/q/WEmiNuHBuY) | Passcode: **akari**                                        |
+| Telegram              | [@KawaiiAkari](https://t.me/KawaiiAkari)    | Backup group and haven, usually not very active.          |
+
+1. Group chats will periodically remove inactive members.
+2. Please ensure you have basic computer knowledge. For example, you can correctly use decompression software, know the difference between "shortcuts" and "main programs", know how to send log files, and can efficiently and accurately describe problems.
 
 ### About League Akari
 
 It is **free** and **open source**, licensed under GPL-3.0.
 
-Like this project? Go to [GitHub](https://github.com/LeagueAkari/LeagueAkari) and give us a free ⭐ to support our ongoing development!
+Like this project? Go to [GitHub](https://github.com/LeagueAkari/LeagueAkari) and give us a free ⭐ to support our ongoing development.
 
-#### Delayed Open Source Notice
+#### Open Source Strategy Change Notice
 
 The League Akari project has always upheld the spirit of open source and sharing, striving to provide high-quality tools for League of Legends players. However, we have recently discovered unauthorized repackaging and sales in the market. Some individuals or organizations have even modified our work and distributed it for a fee. Such actions seriously undermine the legitimate rights and interests of both our team and the wider user community.
 
-From now on, the League Akari project’s source code will only be released up to a few versions behind the latest. The most recent versions will no longer be made public immediately, and only selected updates will be released after a period of time.
-
-Thank you for your understanding and continued support!
+From now on, the League Akari project's source code will only be released up to a few versions behind the latest. The most recent versions will no longer be made public immediately, and only selected updates will be released after a period of time.
 
 <style>
   .flow-gradient-text-9e2b3c0b {
