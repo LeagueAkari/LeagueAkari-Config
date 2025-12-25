@@ -3,13 +3,13 @@ comment: If you can see this, it means you need to update your version (v1.3.7+)
 alertLevel: high
 ---
 
-## <span class="flow-gradient-text-9e2b3c0b">(New)</span> Announcement Board (Released on 2025-12-26 00:00)
+## Announcement Board (Released on 2025-12-26 00:00)
 
 Merry Christmas.
 
 The latest version is currently v1.4.0, updated on 2025-12-25.
 
-## Known Issues
+## <span class="flow-gradient-text-9e2b3c0b">(新)</span> Known Issues
 
 1. The client startup shortcuts in the launch page are not available for some users.
 2. Some pages are not adapted to the light mode.
