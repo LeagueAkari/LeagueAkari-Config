@@ -3,19 +3,24 @@ comment: If you can see this, it means you need to update your version (v1.3.7+)
 alertLevel: high
 ---
 
-## <span class="flow-gradient-text-9e2b3c0b">(New)</span> Announcement Board (Released on 2025-12-25 22:00)
+## <span class="flow-gradient-text-9e2b3c0b">(New)</span> Announcement Board (Released on 2025-12-26 00:00)
 
 Merry Christmas.
 
 The latest version is currently v1.4.0, updated on 2025-12-25.
 
+## Known Issues
+
+1. The client startup shortcuts in the launch page are not available for some users.
+2. Some pages are not adapted to the light mode.
+
 ### Community & Feedback Channels
 
-|                       | Portal                                      | Notes                                                      |
-| --------------------- | ------------------------------------------- | ---------------------------------------------------------- |
-| QQ Group (1st Base)   | [301157623](https://qm.qq.com/q/F1Xv85etlm) | Passcode: **akari**                                        |
-| QQ Group (2nd Base · New) | [543703181](https://qm.qq.com/q/WEmiNuHBuY) | Passcode: **akari**                                        |
-| Telegram              | [@KawaiiAkari](https://t.me/KawaiiAkari)    | Backup group and haven, usually not very active.          |
+|                           | Portal                                      | Notes                                            |
+| ------------------------- | ------------------------------------------- | ------------------------------------------------ |
+| QQ Group (1st Base)       | [301157623](https://qm.qq.com/q/F1Xv85etlm) | Passcode: **akari**                              |
+| QQ Group (2nd Base · New) | [543703181](https://qm.qq.com/q/WEmiNuHBuY) | Passcode: **akari**                              |
+| Telegram                  | [@KawaiiAkari](https://t.me/KawaiiAkari)    | Backup group and haven, usually not very active. |
 
 1. Group chats will periodically remove inactive members.
 2. Please ensure you have basic computer knowledge. For example, you can correctly use decompression software, know the difference between "shortcuts" and "main programs", know how to send log files, and can efficiently and accurately describe problems.
