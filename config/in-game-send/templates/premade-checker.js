@@ -5,19 +5,31 @@ const includeSelf = false
 const showChampionName = true
 
 function getMessages(env) {
-  const groups = Object.values(env.teamParticipantGroups).filter((g) => {
-    if (g.length < 2) {
-      return false
+  const groupedByPremadeId = {}
+
+  for (const [puuid, premadeId] of Object.entries(env.calculatedPremadeTeamMap || {})) {
+    if (!premadeId) {
+      continue
     }
 
-    // 排除自己的组
-    if (!includeSelf && g.includes(env.selfPuuid)) {
-      return false
-    }
+    groupedByPremadeId[premadeId] ??= []
+    groupedByPremadeId[premadeId].push(puuid)
+  }
 
-    // 如果组中任何成员属于某方，此组为需要的组
-    return g.some((m) => env.targetMembers.includes(m))
-  })
+  const groups = Object.entries(groupedByPremadeId)
+    .sort((a, b) => Number(a[0]) - Number(b[0]))
+    .map(([, members]) => members)
+    .filter((members) => {
+      if (members.length < 2) {
+        return false
+      }
+
+      if (!includeSelf && members.includes(env.selfPuuid)) {
+        return false
+      }
+
+      return members.some((member) => env.targetMembers.includes(member))
+    })
 
   if (groups.length === 0) {
     switch (env.target) {
@@ -57,7 +69,7 @@ function getMessages(env) {
 
 function getMetadata() {
   return {
-    version: 10,
+    version: 21,
     type: 'ongoing-game'
   }
 }

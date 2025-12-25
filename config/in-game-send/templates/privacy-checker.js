@@ -5,11 +5,35 @@ const includeSelf = false
 const showChampionName = true
 
 function getMessages(env) {
+  const getChampionName = (puuid) => {
+    const championId = env.championSelections?.[puuid] ?? -1
+
+    const fromGameData =
+      typeof env.gameData?.championName === 'function'
+        ? env.gameData.championName(championId)
+        : null
+
+    return (
+      fromGameData ||
+      env.gameData?.champions?.[championId]?.name ||
+      env.summoner?.[puuid]?.data?.gameName ||
+      '未知召唤师'
+    )
+  }
+
   const rats = env.targetMembers
-    .filter((m) => env.summoner[m])
-    .map((m) => env.summoner[m].data)
-    .filter((s) => s.privacy === 'PRIVATE')
-    .filter((m) => includeSelf || m.puuid !== env.selfPuuid)
+    .map((puuid) => env.summoner?.[puuid]?.data || null)
+    .filter((summoner) => {
+      if (!summoner) {
+        return false
+      }
+
+      if (!includeSelf && summoner.puuid === env.selfPuuid) {
+        return false
+      }
+
+      return summoner.privacy === 'PRIVATE'
+    })
 
   if (rats.length === 0) {
     switch (env.target) {
@@ -24,28 +48,26 @@ function getMessages(env) {
     }
   }
 
-  const messages = rats.map((s) => {
-    let name
-    if (showChampionName) {
-      const championId = env.championSelections[s.puuid] || -1
-      name = env.gameData.championName(championId)
-    } else {
-      name = s.gameName
-    }
+  const messages = rats.map((summoner) => {
+    const championName = getChampionName(summoner.puuid)
+    const name = showChampionName
+      ? championName
+      : summoner.gameName || env.summoner?.[summoner.puuid]?.data?.gameName || championName
 
     const base = [`滴滴滴，检测到 ${name} 锁战绩`]
 
-    const stats = env.playerStats?.players[s.puuid]
-    if (stats) {
-      const { averageKda, winRate } = stats.summary
+    const stats = env.playerStats?.players?.[summoner.puuid]
+    const summary = stats?.summary
+    if (summary) {
+      const averageKda = Number.isFinite(summary.averageKda) ? summary.averageKda : 0
+      const winRate = Number.isFinite(summary.winRate) ? summary.winRate : 0
       base.push(`KDA ${averageKda.toFixed(1)} 胜率 ${(winRate * 100).toFixed(0)}%`)
 
-      const soloDeathGames = env.matchHistory[s.puuid].data
-        .map((g) => stats.games[g.gameId]?.soloDeaths)
-        .filter((g) => Boolean(g))
+      const soloDeathGames = (env.matchHistory?.[summoner.puuid]?.data || [])
+        .map((game) => stats?.games?.[game.gameId]?.soloDeaths)
+        .filter((soloDeaths) => Array.isArray(soloDeaths) && soloDeaths.length > 0)
 
-      const totalDeaths = soloDeathGames.reduce((acc, g) => acc + g.length, 0)
-
+      const totalDeaths = soloDeathGames.reduce((acc, soloDeaths) => acc + soloDeaths.length, 0)
       if (totalDeaths > 0) {
         base.push(`在最近 ${soloDeathGames.length} 场游戏中，被单杀共 ${totalDeaths} 次`)
       }
@@ -59,7 +81,7 @@ function getMessages(env) {
 
 function getMetadata() {
   return {
-    version: 10,
+    version: 21,
     type: 'ongoing-game'
   }
 }
