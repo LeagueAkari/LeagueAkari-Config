@@ -1,9 +1,9 @@
 ---
 comment: If you can see this, it means you need to update your version (v1.3.7+)
-alertLevel: high
+alertLevel: medium
 ---
 
-## Announcement Board (Released on 2025-12-26 00:00)
+## Announcement Board (Released on 2025-12-26 21:00)
 
 Merry Christmas.
 
@@ -13,6 +13,13 @@ The latest version is currently v1.4.0, updated on 2025-12-25.
 
 1. The client startup shortcuts in the launch page are not available for some users.
 2. Some pages are not adapted to the light mode.
+3. The CPU usage is high when using WMI to connect to the client.
+4. The open-group detection sometimes has problems.
+5. The page size is reset when flipping the 战绩页面.
+6. Some labels on the player card in the match analysis are not displayed correctly.
+7. The send template feature is not working properly.
+8. Some pages are not adapted to the light mode.
+9. The OP.GG window is not working properly for some users.
 
 ### Community & Feedback Channels
 
