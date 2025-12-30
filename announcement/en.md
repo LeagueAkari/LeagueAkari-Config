@@ -3,7 +3,7 @@ comment: If you can see this, it means you need to update your version (v1.3.7+)
 alertLevel: medium
 ---
 
-## Announcement Board (Released on 2025-12-26 21:00)
+## Announcement Board (Released on 2025-12-30 22:00)
 
 Merry Christmas.
 
@@ -15,11 +15,13 @@ The latest version is currently v1.4.0, updated on 2025-12-25.
 2. Some pages are not adapted to the light mode.
 3. The CPU usage is high when using WMI to connect to the client.
 4. The open-group detection sometimes has problems.
-5. The page size is reset when flipping the 战绩页面.
+5. The page size is reset when flipping the match history page.
 6. Some labels on the player card in the match analysis are not displayed correctly.
 7. The send template feature is not working properly.
 8. Some pages are not adapted to the light mode.
 9. The OP.GG window is not working properly for some users.
+10. The automatic selection/ban/swap features are not working properly in some cases, and the time calculation error when setting a delay. The automatic swap function in the hero selection in the ARAM mode is forced to be enabled.
+11. For some anonymous players, their assigned position (such as mid, top, ...) information is not fully completed.
 
 ### Community & Feedback Channels
 
