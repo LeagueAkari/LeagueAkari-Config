@@ -3,7 +3,15 @@ comment: 如果你能看到这个，说明你需要更新版本了 (v1.3.7+)
 alertLevel: high
 ---
 
-## <span class="flow-gradient-text-9e2b3c0b">(新)</span> 公告板 (更新于 2026-01-05 18:40)
+## 公告板 (更新于 2026-01-05 22:05)
+
+### <span class="flow-gradient-text-9e2b3c0b">(新)</span> 备用下载地址
+
+目前发现 Gitee 下载出现 403，这会导致软件自动更新失败。
+
+特此，为本版本提供了蓝奏云下载途径。[https://hanxven.lanzoum.com/b0mc8n1re](https://hanxven.lanzoum.com/b0mc8n1re)，提取码: **miku**
+
+---
 
 目前最新版本是 v1.4.2，更新于 2026-01-05。主要内容为针对 v1.4.0 和 v1.4.1 版本中的已知问题进行修复。
 
