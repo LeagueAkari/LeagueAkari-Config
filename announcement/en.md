@@ -1,27 +1,13 @@
 ---
 comment: If you can see this, it means you need to update your version (v1.3.7+)
-alertLevel: medium
+alertLevel: high
 ---
 
-## Announcement Board (Released on 2025-12-30 22:00)
+## <span class="flow-gradient-text-9e2b3c0b">(New)</span> Announcement Board (Released on 2026-01-05 15:00)
 
-Merry Christmas.
+The latest version is currently v1.4.1, updated on 2026-01-05. This update primarily addresses known issues from v1.4.0.
 
-The latest version is currently v1.4.0, updated on 2025-12-25.
-
-## <span class="flow-gradient-text-9e2b3c0b">(新)</span> Known Issues
-
-1. The client startup shortcuts in the launch page are not available for some users.
-2. Some pages are not adapted to the light mode.
-3. The CPU usage is high when using WMI to connect to the client.
-4. The open-group detection sometimes has problems.
-5. The page size is reset when flipping the match history page.
-6. Some labels on the player card in the match analysis are not displayed correctly.
-7. The send template feature is not working properly.
-8. Some pages are not adapted to the light mode.
-9. The OP.GG window is not working properly for some users.
-10. The automatic selection/ban/swap features are not working properly in some cases, and the time calculation error when setting a delay. The automatic swap function in the hero selection in the ARAM mode is forced to be enabled.
-11. For some anonymous players, their assigned position (such as mid, top, ...) information is not fully completed.
+If you cannot update automatically, please **manually download** [the latest version](https://github.com/LeagueAkari/LeagueAkari/releases/download/v1.4.1/League.Akari-1.4.1-win.7z).
 
 ### Community & Feedback Channels
 
@@ -31,12 +17,12 @@ The latest version is currently v1.4.0, updated on 2025-12-25.
 | QQ Group (2nd Base · New) | [543703181](https://qm.qq.com/q/WEmiNuHBuY) | Passcode: **akari**                              |
 | Telegram                  | [@KawaiiAkari](https://t.me/KawaiiAkari)    | Backup group and haven, usually not very active. |
 
-1. Group chats will periodically remove inactive members.
+1. Group chats will periodically remove inactive members, and usually will not notify in advance.
 2. Please ensure you have basic computer knowledge. For example, you can correctly use decompression software, know the difference between "shortcuts" and "main programs", know how to send log files, and can efficiently and accurately describe problems.
 
 ### About League Akari
 
-It is **free** and **open source**, licensed under GPL-3.0.
+It is **free** and **open source**, licensed under GPL-3.0. It will not be sold on any channels (such as Douyin, XianYu, Taobao, and various platforms).
 
 Like this project? Go to [GitHub](https://github.com/LeagueAkari/LeagueAkari) and give us a free ⭐ to support our ongoing development.
 
