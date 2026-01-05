@@ -3,11 +3,13 @@ comment: If you can see this, it means you need to update your version (v1.3.7+)
 alertLevel: high
 ---
 
-## <span class="flow-gradient-text-9e2b3c0b">(New)</span> Announcement Board (Released on 2026-01-05 15:00)
+## <span class="flow-gradient-text-9e2b3c0b">(New)</span> Announcement Board (Updated on 2026-01-05 18:40)
 
-The latest version is currently v1.4.1, updated on 2026-01-05. This update primarily addresses known issues from v1.4.0.
+The latest version is currently v1.4.2, updated on 2026-01-05. This update primarily addresses known issues from v1.4.0 and v1.4.1.
 
-If you cannot update automatically, please **manually download** [the latest version](https://github.com/LeagueAkari/LeagueAkari/releases/download/v1.4.1/League.Akari-1.4.1-win.7z).
+Due to the issue of the game window not being displayed in the just released v1.4.1 version, this update primarily addresses this issue.
+
+If you cannot update automatically, please **manually download**. [Download the latest version](https://github.com/LeagueAkari/LeagueAkari/releases/download/v1.4.2/League.Akari-1.4.2-win.7z).
 
 ### Community & Feedback Channels
 

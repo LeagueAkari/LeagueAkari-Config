@@ -3,11 +3,15 @@ comment: 如果你能看到这个，说明你需要更新版本了 (v1.3.7+)
 alertLevel: high
 ---
 
-## <span class="flow-gradient-text-9e2b3c0b">(新)</span> 公告板 (发布于 2026-01-05 15:00)
+## <span class="flow-gradient-text-9e2b3c0b">(新)</span> 公告板 (更新于 2026-01-05 18:40)
 
-目前最新版本是 v1.4.1，更新于 2026-01-05。主要内容为针对 v1.4.0 版本中的已知问题进行修复。
+目前最新版本是 v1.4.2，更新于 2026-01-05。主要内容为针对 v1.4.0 和 v1.4.1 版本中的已知问题进行修复。
 
-若无法自动更新，请**手动下载**[最新版本](https://gitee.com/LeagueAkari/LeagueAkari/releases/download/v1.4.1/League%20Akari-1.4.1-win.7z)。
+由于刚才发布的 v1.4.1 版本中存在对局窗口无法展示的问题，本次更新主要为修复此问题。
+
+若无法自动更新，请**手动下载**。[点击下载最新版本](https://gitee.com/LeagueAkari/LeagueAkari/releases/download/v1.4.2/League%20Akari-1.4.2-win.7z)。
+
+---
 
 ### 聚集地 & 反馈渠道之一
 
