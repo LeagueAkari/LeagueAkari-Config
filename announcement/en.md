@@ -1,15 +1,25 @@
 ---
 comment: If you can see this, it means you need to update your version (v1.3.7+)
-alertLevel: high
+alertLevel: medium
 ---
 
-## <span class="flow-gradient-text-9e2b3c0b">(New)</span> Announcement Board (Updated on 2026-01-05 18:40)
+## <span class="flow-gradient-text-9e2b3c0b">(New)</span> Announcement Board (Updated on 2026-01-08 01:05)
+
+### <span class="flow-gradient-text-9e2b3c0b">(New)</span> Known Bugs
+
+1. Premade detection may have issues in certain situations.
+2. The manual check for updates button in the settings is not working.
+3. When in certain queues (such as match queues), data loading may fail or UI may be abnormal.
+
+### Version Information
 
 The latest version is currently v1.4.2, updated on 2026-01-05. This update primarily addresses known issues from v1.4.0 and v1.4.1.
 
-Due to the issue of the game window not being displayed in the just released v1.4.1 version, this update primarily addresses this issue.
+Due to the issue of the game window not being displayed in the recently released v1.4.1 version, this update primarily addresses this issue.
 
 If you cannot update automatically, please **manually download**. [Download the latest version](https://github.com/LeagueAkari/LeagueAkari/releases/download/v1.4.2/League.Akari-1.4.2-win.7z).
+
+You can also use the Lanzou Yun download link. [https://hanxven.lanzoum.com/b0mc8n1re](https://hanxven.lanzoum.com/b0mc8n1re), passcode: **miku**.
 
 ### Community & Feedback Channels
 

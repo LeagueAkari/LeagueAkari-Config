@@ -1,23 +1,25 @@
 ---
 comment: 如果你能看到这个，说明你需要更新版本了 (v1.3.7+)
-alertLevel: high
+alertLevel: medium
 ---
 
-## 公告板 (更新于 2026-01-05 22:05)
+## 公告板 (更新于 2026-01-08 01:05)
 
-### <span class="flow-gradient-text-9e2b3c0b">(新)</span> 备用下载地址
+### <span class="flow-gradient-text-9e2b3c0b">(新)</span> 已知 BUG
 
-目前发现 Gitee 下载出现 403，这会导致软件自动更新失败。
+1. 开黑检测在部分情况下出现问题。
+2. 设置中的手动检查更新按钮无效。
+3. 当处于特定队列（如匹配队列）时，可能无法加载胜率等数据，或造成 UI 异常。
 
-特此，为本版本提供了蓝奏云下载途径。[https://hanxven.lanzoum.com/b0mc8n1re](https://hanxven.lanzoum.com/b0mc8n1re)，提取码: **miku**
-
----
+### 版本信息
 
 目前最新版本是 v1.4.2，更新于 2026-01-05。主要内容为针对 v1.4.0 和 v1.4.1 版本中的已知问题进行修复。
 
-由于刚才发布的 v1.4.1 版本中存在对局窗口无法展示的问题，本次更新主要为修复此问题。
+由于近期发布的 v1.4.1 版本中存在对局窗口无法展示的问题，本次更新主要为修复此问题。
 
 若无法自动更新，请**手动下载**。[点击下载最新版本](https://gitee.com/LeagueAkari/LeagueAkari/releases/download/v1.4.2/League%20Akari-1.4.2-win.7z)。
+
+也可以使用蓝奏云下载途径。[https://hanxven.lanzoum.com/b0mc8n1re](https://hanxven.lanzoum.com/b0mc8n1re)，提取码: **miku**
 
 ---
 
