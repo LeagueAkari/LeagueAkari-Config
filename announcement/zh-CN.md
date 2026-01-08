@@ -1,6 +1,6 @@
 ---
 comment: 如果你能看到这个，说明你需要更新版本了 (v1.3.7+)
-alertLevel: high
+alertLevel: medium
 ---
 
 ## 公告板 (更新于 2026-01-08 20:00)
@@ -11,7 +11,7 @@ alertLevel: high
 
 因此，作为解决方案，若要更新到最新版本，可以选择：
 
-1. 夸克网盘：[https://pan.quark.cn/s/0baa97982ae5](https://pan.quark.cn/s/0baa97982ae5)
+1. 夸克网盘：[https://pan.quark.cn/s/630d1734a4b2](https://pan.quark.cn/s/630d1734a4b2)
 2. 蓝奏云：[https://hanxven.lanzoum.com/b0mc8n1re](https://hanxven.lanzoum.com/b0mc8n1re)，提取码: **miku**
 3. 如果你可以直连 GitHub，可将数据源切换至 GitHub，并触发自动更新。或在对应的 [Releases](https://github.com/LeagueAkari/LeagueAkari/releases) 页面下载最新版本。
 
