@@ -1,11 +1,20 @@
 ---
 comment: 如果你能看到这个，说明你需要更新版本了 (v1.3.7+)
-alertLevel: medium
+alertLevel: high
 ---
 
-## 公告板 (更新于 2026-01-08 01:05)
+## 公告板 (更新于 2026-01-08 19:50)
 
-### <span class="flow-gradient-text-9e2b3c0b">(新)</span> 已知 BUG
+### <span class="flow-gradient-text-9e2b3c0b">(新)</span> Gitee 下载途径失效通知
+
+目前，Gitee 已经阻断了 League Akari 的直链下载方式，这意味着软件内部的自动更新功能将失效（GitHub 数据源不受影响）。
+
+因此，作为解决方案，若要更新到最新版本，可以选择：
+
+1. 蓝奏云下载途径：[https://hanxven.lanzoum.com/b0mc8n1re](https://hanxven.lanzoum.com/b0mc8n1re)，提取码: **miku**
+2. 如果你可以直连 GitHub，可将数据源切换至 GitHub，并触发自动更新。或在对应的 Releases 页面下载最新版本。
+
+### 已知 BUG
 
 1. 开黑检测在部分情况下出现问题。
 2. 设置中的手动检查更新按钮无效。
@@ -16,10 +25,6 @@ alertLevel: medium
 目前最新版本是 v1.4.2，更新于 2026-01-05。主要内容为针对 v1.4.0 和 v1.4.1 版本中的已知问题进行修复。
 
 由于近期发布的 v1.4.1 版本中存在对局窗口无法展示的问题，本次更新主要为修复此问题。
-
-若无法自动更新，请**手动下载**。[点击下载最新版本](https://gitee.com/LeagueAkari/LeagueAkari/releases/download/v1.4.2/League%20Akari-1.4.2-win.7z)。
-
-也可以使用蓝奏云下载途径。[https://hanxven.lanzoum.com/b0mc8n1re](https://hanxven.lanzoum.com/b0mc8n1re)，提取码: **miku**
 
 ---
 
