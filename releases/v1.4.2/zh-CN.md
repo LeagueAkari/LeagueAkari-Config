@@ -1,3 +1,13 @@
+# 前置通知
+
+目前，Gitee 已经阻断了 League Akari 的直链下载方式，这意味着软件内部的自动更新功能将失效（GitHub 数据源不受影响）。
+
+因此，作为解决方案，若要更新到此版本，可以选择：
+
+1. 蓝奏云：[https://hanxven.lanzoum.com/b0mc8n1re](https://hanxven.lanzoum.com/b0mc8n1re)，提取码: **miku**
+2. 直链下载：[点击这里](https://akari-static.hanxven.cc/League%20Akari-1.4.2-win.7z)
+3. 如果你可以直连 GitHub，**可将 Git 仓库源** 切换至 GitHub，并触发应用内的自动更新。或在对应的 [Releases](https://github.com/LeagueAkari/LeagueAkari/releases) 页面下载最新版本。
+
 # v1.4.2 (2026-01-05)
 
 本次更新是对 v1.4.1 的修复补丁，修复了对局窗口无法使用的问题。
