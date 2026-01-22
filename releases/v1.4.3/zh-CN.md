@@ -1,12 +1,6 @@
----
-comment: 如果你能看到这个，说明你需要更新版本了 (v1.3.7+)
-alertLevel: high
-summary: v1.4.3 版本更新
----
-
 <div class="akari-markdown download-link-container">
   <div class="akari-markdown download-link-title flow-gradient-text ">走过路过不要错过！</div>
-  <div class="akari-markdown download-link-body">在 v1.4.2 以及其之前的版本中，由于一些问题，它们已经无法自动更新到新的版本。😭</div>
+  <div class="akari-markdown download-link-body">在 v1.4.2 以及其之前的版本中，由于一些问题，它们已经无法自动更新的新的版本。😭</div>
   <div class="akari-markdown download-link-body">因此😀，如果你要使用最新的版本并正常享受后续版本的自动更新，你需要<span class="akari-markdown flow-gradient-text">手动下载</span>最新的版本。😘💕如下提供三种方式来下载新版本：</div>
 
   <div class="akari-markdown download-link-buttons">
@@ -16,36 +10,39 @@ summary: v1.4.3 版本更新
   </div>
 </div>
 
----
+# v1.4.3 (2026-01-22)
 
-## 公告板 (更新于 2026-01-22 16:00)
+v1.4.3，主要面向修复，和少量功能更新。
 
-v1.4.3 已经发布，主要对上个版本的一些 BUG 进行了修复。
+## 1. 新增
 
-同时，集成了海克斯乱斗的 OP.GG 海克斯强度数据。
+- OP.GG 小窗口中，添加海克斯乱斗英雄的海克斯强度数据。
 
-### 聚集地 & 反馈渠道之一
+## 2. 修复
 
-|                       | 传送门                                      | 备注                         |
-| --------------------- | ------------------------------------------- | ---------------------------- |
-| QQ 群 (一号据点)      | [301157623](https://qm.qq.com/q/F1Xv85etlm) | 口令 **akari**               |
-| QQ 群 (二号据点) | [543703181](https://qm.qq.com/q/WEmiNuHBuY) | 口令 **akari**               |
-| Telegram              | [@KawaiiAkari](https://t.me/KawaiiAkari)    | 分身群兼避难所，通常不活跃。 |
+- 修复了自动英雄选择 / 禁用功能中，时间计算错误的问题。现在会始终将时间限定在当前阶段的可用时间内。
 
-1. 群聊会定期清理潜水人员，并且通常不会事先通知。
-2. 请确保你掌握基础的计算机常识。如，可以正确使用解压缩软件，知晓“快捷方式”和“主程序”的区别，知道如何发送日志文件，以及会高效且精确地地描述问题。
+- 修复了对局页面在某些情况下，无法正常展示胜率的问题。
 
-### 关于 League Akari
+- 修复了开黑判断错误的问题，曾导致可能会错误地将部分游玩过的玩家判定为预组队。
 
-它是**免费**、**开源**的，许可证是 GPL-3.0。它不会在任何渠道（如抖音、闲鱼、淘宝以及各种平台）进行售卖。
+- 修复了之前忽略此版本更新功能失效的问题。
 
-觉得这个项目不错？去 [GitHub](https://github.com/LeagueAkari/LeagueAkari) 点一颗免费的 ⭐，以支持我们继续开发。
+## 3. 调整
 
-#### 开源策略变更须知
+- 自动更新的解压流程，现在由自动更新器接管，不再由应用自身完成。
 
-League Akari 项目自始至终秉持开源与分享精神，致力于为广大英雄联盟玩家提供优质的工具。然而，近期我们发现市场上出现了未经授权的二次包装及售卖行为，甚至存在部分个人或组织在我们的基础上加以修改并以收费形式进行分发。这种行为严重损害了项目团队及广大用户的合法权益。
+- 公告会弹出小型 popover 以供预览核心内容。
 
-从即日起，League Akari 项目源代码将仅同步发布至几个版本之前的历史版本。最新版本的源代码将不再第一时间公开，仅会在经过一段时间后，选择性地发布部分更新内容。
+- 战绩卡片斗魂竞技场模式中，现在会显示“金币”列。
+
+- 添加了更多的方式，以保证自动更新系统的可用性。
+
+## 4. 免责声明
+
+本软件是基于 Riot 的 League Client Update (LCU) API 开发的工具。它不使用侵入性技术，理论上不会直接干扰或修改游戏数据。但是，请注意可能存在的兼容性问题或与游戏更新或反作弊系统相关的风险。
+
+此外，本应用并非由 Riot Games 官方支持或认可，Riot Games 保留所有权利。使用本应用风险自负，因为它可能违反游戏的服务条款。
 
 <style>
 .akari-markdown.flow-gradient-text, .akari-markdown .flow-gradient-text {
@@ -85,8 +82,6 @@ League Akari 项目自始至终秉持开源与分享精神，致力于为广大�
 .akari-markdown.download-link-container {
   padding: 16px;
   border-radius: 8px;
-  border: 2px solid;
-  animation: akari-border-blink 0.5s steps(1) infinite;
 
   .akari-markdown.download-link-title {
     font-size: 16px;
@@ -155,15 +150,6 @@ League Akari 项目自始至终秉持开源与分享精神，致力于为广大�
   }
   100% {
     background-position: 0% 0;
-  }
-}
-
-@keyframes akari-border-blink {
-  0% {
-    border-color: #f83f6f;
-  }
-  50% {
-    border-color: #fbbf24;
   }
 }
 </style>

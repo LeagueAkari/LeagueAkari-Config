@@ -1,9 +1,3 @@
----
-comment: If you can see this, it means you need to update your version (v1.3.7+)
-alertLevel: high
-summary: v1.4.3 Version Update
----
-
 <div class="akari-markdown download-link-container">
   <div class="akari-markdown download-link-title flow-gradient-text ">Don't Miss Out!</div>
   <div class="akari-markdown download-link-body">In v1.4.2 and earlier versions, due to some issues, they can no longer automatically update to the new version. 😭</div>
@@ -16,36 +10,39 @@ summary: v1.4.3 Version Update
   </div>
 </div>
 
----
+# v1.4.3 (2026-01-22)
 
-## Announcement Board (Updated on 2026-01-22 16:00)
+v1.4.3, primarily focused on bug fixes, with some minor feature updates.
 
-v1.4.3 has been released, primarily fixing some bugs from the previous version.
+## 1. New Features
 
-Additionally, OP.GG augments tier data for ARAM: Mayhem has been integrated.
+- Added augments tier data for ARAM: Mayhem champions in the OP.GG mini window.
 
-### Community & Feedback Channels
+## 2. Bug Fixes
 
-|                       | Portal                                      | Notes                                            |
-| --------------------- | ------------------------------------------- | ------------------------------------------------ |
-| QQ Group (1st Base)   | [301157623](https://qm.qq.com/q/F1Xv85etlm) | Passcode: **akari**                              |
-| QQ Group (2nd Base)   | [543703181](https://qm.qq.com/q/WEmiNuHBuY) | Passcode: **akari**                              |
-| Telegram              | [@KawaiiAkari](https://t.me/KawaiiAkari)    | Backup group and haven, usually not very active. |
+- Fixed an issue with incorrect time calculation in the automatic champion selection/ban feature. The time will now always be limited to the available time within the current phase.
 
-1. Group chats will periodically remove inactive members, and usually will not notify in advance.
-2. Please ensure you have basic computer knowledge. For example, you can correctly use decompression software, know the difference between "shortcuts" and "main programs", know how to send log files, and can efficiently and accurately describe problems.
+- Fixed an issue where the win rate could not be displayed correctly on the match page in certain cases.
 
-### About League Akari
+- Fixed an issue with incorrect premade detection, which could incorrectly identify some previously played players as premades.
 
-It is **free** and **open source**, licensed under GPL-3.0. It will not be sold on any channels (such as Douyin, XianYu, Taobao, and various platforms).
+- Fixed an issue where the "Ignore this update" feature was not working.
 
-Like this project? Go to [GitHub](https://github.com/LeagueAkari/LeagueAkari) and give us a free ⭐ to support our ongoing development.
+## 3. Adjustments
 
-#### Open Source Strategy Change Notice
+- The extraction process for automatic updates is now handled by the auto-updater instead of the application itself.
 
-The League Akari project has always upheld the spirit of open source and sharing, striving to provide high-quality tools for League of Legends players. However, we have recently discovered unauthorized repackaging and sales in the market. Some individuals or organizations have even modified our work and distributed it for a fee. Such actions seriously undermine the legitimate rights and interests of both our team and the wider user community.
+- Announcements will now pop up a small popover to preview the core content.
 
-From now on, the League Akari project's source code will only be released up to a few versions behind the latest. The most recent versions will no longer be made public immediately, and only selected updates will be released after a period of time.
+- In the Arena mode on the match history card, a "Gold" column will now be displayed.
+
+- Added more methods to ensure the availability of the automatic update system.
+
+## 4. Disclaimer
+
+This software is a tool developed based on Riot's League Client Update (LCU) API. It does not use invasive technology and theoretically will not directly interfere with or modify game data. However, please note the possible compatibility issues or risks related to game updates or anti-cheat systems.
+
+Furthermore, this application is not officially supported or endorsed by Riot Games, and Riot Games reserves all rights. Use this application at your own risk, as it may violate the game's terms of service.
 
 <style>
 .akari-markdown.flow-gradient-text, .akari-markdown .flow-gradient-text {
