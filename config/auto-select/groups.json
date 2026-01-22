@@ -1,0 +1,222 @@
+{
+  "version": 1,
+  "lastUpdate": 1759568091535,
+  "groups": [
+    {
+      "groupId": "ranked",
+      "isCustom": false,
+      "targetGameModes": [
+        {
+          "gameMode": "CLASSIC",
+          "queueTypes": [
+            "RANKED_SOLO_5x5",
+            "RANKED_FLEX_SR"
+          ]
+        }
+      ],
+      "positions": [
+        "top",
+        "jungle",
+        "middle",
+        "bottom",
+        "utility"
+      ],
+      "additionalPicks": [],
+      "additionalBans": [],
+      "excludedPicks": [
+        -1
+      ],
+      "excludedBans": []
+    },
+    {
+      "groupId": "normal",
+      "isCustom": false,
+      "targetGameModes": [
+        {
+          "gameMode": "CLASSIC",
+          "queueTypes": [
+            "NORMAL"
+          ]
+        }
+      ],
+      "positions": [
+        "top",
+        "jungle",
+        "middle",
+        "bottom",
+        "utility"
+      ],
+      "additionalPicks": [],
+      "additionalBans": [],
+      "excludedPicks": [
+        -1
+      ],
+      "excludedBans": []
+    },
+    {
+      "groupId": "aram",
+      "isCustom": false,
+      "targetGameModes": [
+        {
+          "gameMode": "ARAM",
+          "queueTypes": [
+            "*"
+          ]
+        },
+        {
+          "gameMode": "KIWI",
+          "queueTypes": [
+            "*"
+          ]
+        }
+      ],
+      "positions": [
+        "default"
+      ],
+      "additionalPicks": [],
+      "additionalBans": [],
+      "excludedPicks": [
+        -1
+      ],
+      "excludedBans": []
+    },
+    {
+      "groupId": "cherry",
+      "isCustom": false,
+      "targetGameModes": [
+        {
+          "gameMode": "CHERRY",
+          "queueTypes": [
+            "*"
+          ]
+        }
+      ],
+      "positions": [
+        "default"
+      ],
+      "additionalPicks": [
+        -3
+      ],
+      "additionalBans": [],
+      "excludedPicks": [
+        -1
+      ],
+      "excludedBans": []
+    },
+    {
+      "groupId": "urf",
+      "isCustom": false,
+      "targetGameModes": [
+        {
+          "gameMode": "URF",
+          "queueTypes": [
+            "*"
+          ]
+        }
+      ],
+      "positions": [
+        "default"
+      ],
+      "additionalPicks": [],
+      "additionalBans": [],
+      "excludedPicks": [
+        -1
+      ],
+      "excludedBans": []
+    },
+    {
+      "groupId": "oneforall",
+      "isCustom": false,
+      "targetGameModes": [
+        {
+          "gameMode": "ONEFORALL",
+          "queueTypes": [
+            "*"
+          ]
+        }
+      ],
+      "positions": [
+        "default"
+      ],
+      "additionalPicks": [],
+      "additionalBans": [],
+      "excludedPicks": [
+        -1
+      ],
+      "excludedBans": []
+    },
+    {
+      "groupId": "ultbook",
+      "isCustom": false,
+      "targetGameModes": [
+        {
+          "gameMode": "ULTBOOK",
+          "queueTypes": [
+            "*"
+          ]
+        }
+      ],
+      "positions": [
+        "default"
+      ],
+      "additionalPicks": [],
+      "additionalBans": [],
+      "excludedPicks": [
+        -1
+      ],
+      "excludedBans": []
+    },
+    {
+      "groupId": "bot",
+      "isCustom": false,
+      "targetGameModes": [
+        {
+          "gameMode": "SWIFTPLAY",
+          "queueTypes": [
+            "RIOTSCRIPT_BOT"
+          ]
+        }
+      ],
+      "positions": [
+        "default"
+      ],
+      "additionalPicks": [],
+      "additionalBans": [],
+      "excludedPicks": [
+        -1
+      ],
+      "excludedBans": []
+    },
+    {
+      "groupId": "custom",
+      "isCustom": true,
+      "targetGameModes": [
+        {
+          "gameMode": "CLASSIC",
+          "queueTypes": [
+            "NORMAL"
+          ]
+        },
+        {
+          "gameMode": "PRACTICETOOL",
+          "queueTypes": [
+            "NORMAL"
+          ]
+        }
+      ],
+      "positions": [
+        "top",
+        "jungle",
+        "middle",
+        "bottom",
+        "utility"
+      ],
+      "additionalPicks": [],
+      "additionalBans": [],
+      "excludedPicks": [
+        -1
+      ],
+      "excludedBans": []
+    }
+  ]
+}
