@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdate": 1759568091535,
+  "lastUpdate": 1769309207628,
   "groups": [
     {
       "groupId": "ranked",
@@ -40,11 +40,7 @@
         }
       ],
       "positions": [
-        "top",
-        "jungle",
-        "middle",
-        "bottom",
-        "utility"
+        "default"
       ],
       "additionalPicks": [],
       "additionalBans": [],
