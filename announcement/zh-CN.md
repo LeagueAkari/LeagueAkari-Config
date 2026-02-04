@@ -1,8 +1,35 @@
 ---
 comment: 如果你能看到这个，说明你需要更新版本了 (v1.3.7+)
 alertLevel: high
-summary: v1.4.3 版本更新
+summary: （1）请立即关闭可能会导致封号的功能，（2）以及目前观战功能失效通知
 ---
+
+## 公告板 (更新于 2026-02-24 19:00)
+
+League Akari，目前的最新版本为 v1.4.3。
+
+#### 1. 目前已确认可能会导致账号封禁的功能
+
+- 计时器叠加窗口 - 导致封号，原因为“违规软件加载”
+- 对局叠加窗口 - 导致封号，原因为“违规软件加载”
+- 游戏内发送 - 导致禁言
+
+**请立即停用这些功能。**
+
+计时器叠加窗口、对局叠加窗口：位于 `设置` -> `窗口管理` -> `计时器叠加窗口` 和 `对局叠加窗口`。
+
+游戏内发送：位于 `工具集` -> `游戏内发送`。
+
+我们仍在确认和排查其他可能会导致封号的功能。
+
+#### 2. 目前已确认的问题
+
+- 企鹅服版本更新后（2 月 4 日更新，26.3 版本），由于接口变更，观战功能（玩家主页查看某玩家是否位于游戏以及本场游戏相关成员）已失效，无法解决。
+  > 顺便一提：直营服服早就不能用了。
+
+---
+
+### 为确保未来可以收到更新通知，请更新到 v1.4.3
 
 <div class="akari-markdown download-link-container">
   <div class="akari-markdown download-link-title flow-gradient-text ">走过路过不要错过！</div>
@@ -10,27 +37,21 @@ summary: v1.4.3 版本更新
   <div class="akari-markdown download-link-body">因此😀，如果你要使用最新的版本并正常享受后续版本的自动更新，你需要<span class="akari-markdown flow-gradient-text">手动下载</span>最新的版本。😘💕如下提供三种方式来下载新版本：</div>
 
   <div class="akari-markdown download-link-buttons">
-    <a target="_blank" href="https://akari-static.hanxven.cc/League%20Akari-1.4.3-win.7z" class="akari-markdown download-link-button">直链下载</a>
     <a target="_blank" href="https://hanxven.lanzoum.com/b0mc8n1re" class="akari-markdown download-link-button">蓝奏云网盘 (提取码：miku)</a>  
+    <a target="_blank" href="https://akari-static.hanxven.cc/League%20Akari-1.4.3-win.7z" class="akari-markdown download-link-button">直链下载</a>
     <a target="_blank" href="https://github.com/LeagueAkari/LeagueAkari/releases/download/v1.4.3/League.Akari-1.4.3-win.7z" class="akari-markdown download-link-button">GitHub 下载</a>
   </div>
 </div>
 
 ---
 
-## 公告板 (更新于 2026-01-22 16:00)
-
-v1.4.3 已经发布，主要对上个版本的一些 BUG 进行了修复。
-
-同时，集成了海克斯乱斗的 OP.GG 海克斯强度数据。
-
 ### 聚集地 & 反馈渠道之一
 
-|                       | 传送门                                      | 备注                         |
-| --------------------- | ------------------------------------------- | ---------------------------- |
-| QQ 群 (一号据点)      | [301157623](https://qm.qq.com/q/F1Xv85etlm) | 口令 **akari**               |
+|                  | 传送门                                      | 备注                         |
+| ---------------- | ------------------------------------------- | ---------------------------- |
+| QQ 群 (一号据点) | [301157623](https://qm.qq.com/q/F1Xv85etlm) | 口令 **akari**               |
 | QQ 群 (二号据点) | [543703181](https://qm.qq.com/q/WEmiNuHBuY) | 口令 **akari**               |
-| Telegram              | [@KawaiiAkari](https://t.me/KawaiiAkari)    | 分身群兼避难所，通常不活跃。 |
+| Telegram         | [@KawaiiAkari](https://t.me/KawaiiAkari)    | 分身群兼避难所，通常不活跃。 |
 
 1. 群聊会定期清理潜水人员，并且通常不会事先通知。
 2. 请确保你掌握基础的计算机常识。如，可以正确使用解压缩软件，知晓“快捷方式”和“主程序”的区别，知道如何发送日志文件，以及会高效且精确地地描述问题。

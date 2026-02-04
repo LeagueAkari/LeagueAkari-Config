@@ -4,6 +4,6 @@
   "spotlight": {
     "deobfuscation": true,
     "gsmByPuuid": true,
-    "spectatorByPuuid": true
+    "spectatorByPuuid": false
   }
 }

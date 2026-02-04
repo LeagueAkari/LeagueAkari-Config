@@ -36,7 +36,16 @@ It is a JSON file that contains the following fields:
 - `version`: The version of the release. Start with `v`.
 - `publishAt`: The date and time of the release. ISO 8601 format.
 - `descriptions`: The description of the release in certain language. It's an object, the key is the language (e.g. `zh-CN`, `en`), and the value is the string description.
-- `archiveFileGitee`: The archive file for the release in Gitee.
-- `archiveFileGitHub`: The archive file for the release in GitHub.
+- `archiveFileGitee`: The archive file for the release in Gitee. The type is `ArchiveFile`.
+- `archiveFileGitHub`: The archive file for the release in GitHub. The type is `ArchiveFile`.
+
+```ts
+interface ArchiveFile {
+  name: string; // required
+  size: number; // required
+  downloadUrl: string; // required
+  contentType: string; // required, should be `application/x-7z-compressed`
+}
+```
 
 Supported since v1.4.3.
