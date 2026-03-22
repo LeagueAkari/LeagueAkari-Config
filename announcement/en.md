@@ -1,7 +1,7 @@
 ---
 comment: If you can see this, it means you need to update your version (v1.3.7+)
-alertLevel: high
-summary: v1.4.3 Version Update
+alertLevel: medium
+summary: Official QQ Group 1 Frozen Notice, switch to Group 2 or wait for follow-up solutions
 ---
 
 <div class="akari-markdown download-link-container">
@@ -18,22 +18,44 @@ summary: v1.4.3 Version Update
 
 ---
 
-## Announcement Board (Updated on 2026-01-22 16:00)
+## Announcement Board (Updated on 2026-03-22 14:15)
 
-v1.4.3 has been released, primarily fixing some bugs from the previous version.
+League Akari, the latest version is currently v1.4.3.
 
-Additionally, OP.GG augments tier data for ARAM: Mayhem has been integrated.
+### (New) One of the gathering places & feedback channels
 
-### Community & Feedback Channels
+Due to some violations in QQ Group 1 (explicit content and related issues), it has been banned by Tencent. Please move to Group 2, or wait until the group owner successfully appeals.
 
-|                       | Portal                                      | Notes                                            |
-| --------------------- | ------------------------------------------- | ------------------------------------------------ |
-| QQ Group (1st Base)   | [301157623](https://qm.qq.com/q/F1Xv85etlm) | Passcode: **akari**                              |
-| QQ Group (2nd Base)   | [543703181](https://qm.qq.com/q/WEmiNuHBuY) | Passcode: **akari**                              |
-| Telegram              | [@KawaiiAkari](https://t.me/KawaiiAkari)    | Backup group and haven, usually not very active. |
+|                   | Portal                                      | Notes                                            |
+| ----------------- | ------------------------------------------- | ------------------------------------------------ |
+| QQ Group (2nd Base) | [543703181](https://qm.qq.com/q/WEmiNuHBuY) | Passcode: **akari**                            |
+| Telegram          | [@KawaiiAkari](https://t.me/KawaiiAkari)    | Backup group and haven, usually not very active. |
 
 1. Group chats will periodically remove inactive members, and usually will not notify in advance.
 2. Please ensure you have basic computer knowledge. For example, you can correctly use decompression software, know the difference between "shortcuts" and "main programs", know how to send log files, and can efficiently and accurately describe problems.
+
+#### 1. Currently confirmed features that may cause account bans
+
+- Timer Overlay Window - may cause account bans, with reason shown as "unauthorized software loading"
+- Match Overlay Window - may cause account bans, with reason shown as "unauthorized software loading"
+- In-Game Send - may cause chat restrictions
+
+**Please disable these features immediately.**
+
+Timer Overlay Window and Match Overlay Window: located at `Settings` -> `Window Management` -> `Timer Overlay Window` and `Match Overlay Window`.
+
+In-Game Send: located at `Toolkit` -> `In-Game Send`.
+
+We are still verifying and investigating other features that may also cause account bans.
+
+#### 2. Currently confirmed issues
+
+- After the Tencent server update (February 4 update, version 26.3), due to API changes, the spectate feature (checking whether a player is in game from profile and related members in that match) is no longer available and cannot be fixed.
+  > By the way: this has long been unavailable on Riot servers.
+
+---
+
+### To ensure you can receive future update notifications, please update to v1.4.3
 
 ### About League Akari
 
