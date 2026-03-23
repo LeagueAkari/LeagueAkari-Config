@@ -1,7 +1,7 @@
 ---
 comment: If you can see this, it means you need to update your version (v1.3.7+)
 alertLevel: medium
-summary: Official QQ Group 1 Frozen Notice, switch to Group 2 or wait for follow-up solutions
+summary: Official QQ Group 1 Rebuilt Notice
 ---
 
 <div class="akari-markdown download-link-container">
@@ -18,20 +18,21 @@ summary: Official QQ Group 1 Frozen Notice, switch to Group 2 or wait for follow
 
 ---
 
-## Announcement Board (Updated on 2026-03-22 14:15)
+## Announcement Board (Updated on 2026-03-24 00:48)
 
 League Akari, the latest version is currently v1.4.3.
 
 ### (New) One of the gathering places & feedback channels
 
-Due to some violations in QQ Group 1 (explicit content and related issues), it has been banned by Tencent. Please move to Group 2, or wait until the group owner successfully appeals.
+Due to some violations in the previous QQ Group 1 (explicit content and related issues), it has been blocked. A new group has been rebuilt.
 
-|                   | Portal                                      | Notes                                            |
-| ----------------- | ------------------------------------------- | ------------------------------------------------ |
-| QQ Group (2nd Base) | [543703181](https://qm.qq.com/q/WEmiNuHBuY) | Passcode: **akari**                            |
-| Telegram          | [@KawaiiAkari](https://t.me/KawaiiAkari)    | Backup group and haven, usually not very active. |
+|                               | Portal                                       | Notes                                            |
+| ----------------------------- | -------------------------------------------- | ------------------------------------------------ |
+| QQ Group (2nd Base)           | [543703181](https://qm.qq.com/q/WEmiNuHBuY)  | Passcode: **akari**                              |
+| QQ Group (1st Base - Rebuilt) | [1091779450](https://qm.qq.com/q/JL9RQ3Bru8) | Passcode: **akari**                              |
+| Telegram                      | [@KawaiiAkari](https://t.me/KawaiiAkari)     | Backup group and haven, usually not very active. |
 
-1. Group chats will periodically remove inactive members, and usually will not notify in advance.
+1. Group chats will periodically remove **long-term inactive** members, and usually will not notify in advance. If you are long-term inactive, you are likely to be removed.
 2. Please ensure you have basic computer knowledge. For example, you can correctly use decompression software, know the difference between "shortcuts" and "main programs", know how to send log files, and can efficiently and accurately describe problems.
 
 #### 1. Currently confirmed features that may cause account bans
