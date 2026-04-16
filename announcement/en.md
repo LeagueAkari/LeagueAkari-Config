@@ -1,7 +1,7 @@
 ---
 comment: If you can see this, it means you need to update your version (v1.3.7+)
 alertLevel: medium
-summary: Official QQ Group 1 Rebuilt Notice
+summary: Official QQ Group 1 Blocked Notice
 ---
 
 <div class="akari-markdown download-link-container">
@@ -18,18 +18,19 @@ summary: Official QQ Group 1 Rebuilt Notice
 
 ---
 
-## Announcement Board (Updated on 2026-03-24 00:48)
+## Announcement Board (Updated on 2026-04-16 21:00)
 
 League Akari, the latest version is currently v1.4.3.
 
 ### (New) One of the gathering places & feedback channels
 
-Due to some violations in the previous QQ Group 1 (explicit content and related issues), it has been blocked. A new group has been rebuilt.
+~~Due to some violations in the previous QQ Group 1 (explicit content and related issues), it has been blocked. A new group has been rebuilt.~~
+
+A new group has also been blocked, a new new group will be created in the near future, please follow the announcement.
 
 |                               | Portal                                       | Notes                                            |
 | ----------------------------- | -------------------------------------------- | ------------------------------------------------ |
 | QQ Group (2nd Base)           | [543703181](https://qm.qq.com/q/WEmiNuHBuY)  | Passcode: **akari**                              |
-| QQ Group (1st Base - Rebuilt) | [1091779450](https://qm.qq.com/q/JL9RQ3Bru8) | Passcode: **akari**                              |
 | Telegram                      | [@KawaiiAkari](https://t.me/KawaiiAkari)     | Backup group and haven, usually not very active. |
 
 1. Group chats will periodically remove **long-term inactive** members, and usually will not notify in advance. If you are long-term inactive, you are likely to be removed.
