@@ -1,46 +1,32 @@
 ---
 comment: If you can see this, it means you need to update your version (v1.3.7+)
-alertLevel: medium
-summary: Official QQ Group 1 Blocked Notice
+alertLevel: low
+summary: Official group rebuilt: 1097069247, passcode akari
 ---
 
-<div class="akari-markdown download-link-container">
-  <div class="akari-markdown download-link-title flow-gradient-text ">Don't Miss Out!</div>
-  <div class="akari-markdown download-link-body">In v1.4.2 and earlier versions, due to some issues, they can no longer automatically update to the new version. 😭</div>
-  <div class="akari-markdown download-link-body">Therefore 😀, if you want to use the latest version and enjoy automatic updates for future versions, you need to <span class="akari-markdown flow-gradient-text">manually download</span> the latest version. 😘💕 Here are three ways to download the new version:</div>
+## Announcement Board (Updated on 2026-04-19 23:59)
 
-  <div class="akari-markdown download-link-buttons">
-    <a target="_blank" href="https://akari-static.hanxven.cc/League%20Akari-1.4.3-win.7z" class="akari-markdown download-link-button">Direct Download</a>
-    <a target="_blank" href="https://hanxven.lanzoum.com/b0mc8n1re" class="akari-markdown download-link-button">Lanzou (Passcode: miku)</a>  
-    <a target="_blank" href="https://github.com/LeagueAkari/LeagueAkari/releases/download/v1.4.3/League.Akari-1.4.3-win.7z" class="akari-markdown download-link-button">GitHub Download</a>
-  </div>
-</div>
-
----
-
-## Announcement Board (Updated on 2026-04-16 21:00)
-
-League Akari, the latest version is currently v1.4.3.
+League Akari is currently at v1.4.3.
 
 ### (New) One of the gathering places & feedback channels
 
-~~Due to some violations in the previous QQ Group 1 (explicit content and related issues), it has been blocked. A new group has been rebuilt.~~
+The old QQ Group 1 and the newer group were both banned. Looks like the name still was not ideal, so the new group is now Group 3.
 
-A new group has also been blocked, a new new group will be created in the near future, please follow the announcement.
+|                                 | Portal                                       | Notes                                         |
+| ------------------------------- | -------------------------------------------- | --------------------------------------------- |
+| QQ Group (New · Base 3 / 2000)  | [1097069247](https://qm.qq.com/q/CQThVuJLlm) | Passcode: **akari**                           |
+| QQ Group (Base 2 / 2000)        | [543703181](https://qm.qq.com/q/WEmiNuHBuY)  | Passcode: **akari**                           |
+| Telegram                        | [@KawaiiAkari](https://t.me/KawaiiAkari)     | Backup group and shelter, usually not active. |
 
-|                               | Portal                                       | Notes                                            |
-| ----------------------------- | -------------------------------------------- | ------------------------------------------------ |
-| QQ Group (2nd Base)           | [543703181](https://qm.qq.com/q/WEmiNuHBuY)  | Passcode: **akari**                              |
-| Telegram                      | [@KawaiiAkari](https://t.me/KawaiiAkari)     | Backup group and haven, usually not very active. |
+1. Group chats will periodically remove **long-term inactive** members, and usually without prior notice.
+2. Please make sure you have basic computer knowledge. For example: using archive tools correctly, knowing the difference between a shortcut and the main executable, knowing how to send log files, and being able to describe problems efficiently and precisely.
+3. Do not post explicit content. It really can get the group banned.
 
-1. Group chats will periodically remove **long-term inactive** members, and usually will not notify in advance. If you are long-term inactive, you are likely to be removed.
-2. Please ensure you have basic computer knowledge. For example, you can correctly use decompression software, know the difference between "shortcuts" and "main programs", know how to send log files, and can efficiently and accurately describe problems.
+#### 1. Features currently confirmed to possibly cause account bans
 
-#### 1. Currently confirmed features that may cause account bans
-
-- Timer Overlay Window - may cause account bans, with reason shown as "unauthorized software loading"
-- Match Overlay Window - may cause account bans, with reason shown as "unauthorized software loading"
-- In-Game Send - may cause chat restrictions
+- Timer Overlay Window - can lead to bans, with the reason shown as "unauthorized software loading"
+- Match Overlay Window - can lead to bans, with the reason shown as "unauthorized software loading"
+- In-Game Send - can lead to chat restrictions
 
 **Please disable these features immediately.**
 
@@ -48,28 +34,43 @@ Timer Overlay Window and Match Overlay Window: located at `Settings` -> `Window 
 
 In-Game Send: located at `Toolkit` -> `In-Game Send`.
 
-We are still verifying and investigating other features that may also cause account bans.
+These features are disabled by default.
+
+We are still verifying and investigating other features that may also cause bans.
 
 #### 2. Currently confirmed issues
 
-- After the Tencent server update (February 4 update, version 26.3), due to API changes, the spectate feature (checking whether a player is in game from profile and related members in that match) is no longer available and cannot be fixed.
-  > By the way: this has long been unavailable on Riot servers.
+- After the Tencent server update (the February 4 update, version 26.3), due to API changes, the spectate feature (checking whether a player is currently in game from their profile, plus related players in that match) no longer works and cannot be fixed.
+  > By the way: this has long been unavailable on Riot servers too.
+- The feature for sending red/blue side also stopped working after the version update.
 
 ---
 
 ### To ensure you can receive future update notifications, please update to v1.4.3
 
+<div class="akari-markdown download-link-container">
+  <div class="akari-markdown download-link-title flow-gradient-text ">Don't Miss Out!</div>
+  <div class="akari-markdown download-link-body">In v1.4.2 and earlier, due to some issues, automatic updates to newer versions no longer work. 😭</div>
+  <div class="akari-markdown download-link-body">So 😀, if you want to use the latest version and keep receiving automatic updates in future releases, you need to <span class="akari-markdown flow-gradient-text">manually download</span> the latest build. 😘💕 Here are three ways to get it:</div>
+
+  <div class="akari-markdown download-link-buttons">
+    <a target="_blank" href="https://hanxven.lanzoum.com/b0mc8n1re" class="akari-markdown download-link-button">Lanzou (Passcode: miku)</a>  
+    <a target="_blank" href="https://akari-static.hanxven.cc/League%20Akari-1.4.3-win.7z" class="akari-markdown download-link-button">Direct Download</a>
+    <a target="_blank" href="https://github.com/LeagueAkari/LeagueAkari/releases/download/v1.4.3/League.Akari-1.4.3-win.7z" class="akari-markdown download-link-button">GitHub Download</a>
+  </div>
+</div>
+
 ### About League Akari
 
-It is **free** and **open source**, licensed under GPL-3.0. It will not be sold on any channels (such as Douyin, XianYu, Taobao, and various platforms).
+It is **free** and **open source**, licensed under GPL-3.0. It is not sold through any channel (such as Douyin, XianYu, Taobao, or other platforms).
 
-Like this project? Go to [GitHub](https://github.com/LeagueAkari/LeagueAkari) and give us a free ⭐ to support our ongoing development.
+Like the project? Visit [GitHub](https://github.com/LeagueAkari/LeagueAkari) and leave a free ⭐ to support continued development.
 
 #### Open Source Strategy Change Notice
 
-The League Akari project has always upheld the spirit of open source and sharing, striving to provide high-quality tools for League of Legends players. However, we have recently discovered unauthorized repackaging and sales in the market. Some individuals or organizations have even modified our work and distributed it for a fee. Such actions seriously undermine the legitimate rights and interests of both our team and the wider user community.
+The League Akari project has always upheld the spirit of open source and sharing, and we remain committed to providing high-quality tools for League of Legends players. However, we recently found unauthorized repackaging and resale in the market. Some individuals or groups have even modified our work and distributed it for money. This seriously harms the legitimate rights and interests of both the project team and the broader user community.
 
-From now on, the League Akari project's source code will only be released up to a few versions behind the latest. The most recent versions will no longer be made public immediately, and only selected updates will be released after a period of time.
+Starting now, the League Akari source code will only be published for versions that are several releases behind. The latest source code will no longer be made public immediately; instead, some updates will be released selectively after a period of time.
 
 <style>
 .akari-markdown.flow-gradient-text, .akari-markdown .flow-gradient-text {
@@ -109,6 +110,8 @@ From now on, the League Akari project's source code will only be released up to 
 .akari-markdown.download-link-container {
   padding: 16px;
   border-radius: 8px;
+  border: 2px solid;
+  animation: akari-border-blink 0.5s steps(1) infinite;
 
   .akari-markdown.download-link-title {
     font-size: 16px;
@@ -177,6 +180,15 @@ From now on, the League Akari project's source code will only be released up to 
   }
   100% {
     background-position: 0% 0;
+  }
+}
+
+@keyframes akari-border-blink {
+  0% {
+    border-color: #f83f6f;
+  }
+  50% {
+    border-color: #fbbf24;
   }
 }
 </style>
