@@ -1,7 +1,7 @@
 ---
 comment: If you can see this, it means you need to update your version (v1.3.7+)
 alertLevel: low
-summary: Official group rebuilt: 1097069247, passcode akari
+summary: 'Official group rebuilt: 1097069247, passcode akari'
 ---
 
 ## Announcement Board (Updated on 2026-04-19 23:59)
