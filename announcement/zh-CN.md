@@ -1,6 +1,6 @@
 ---
 comment: 如果你能看到这个，说明你需要更新版本了 (v1.3.7+)
-alertLevel: medium
+alertLevel: low
 summary: 官方群聊重建：1097069247，密码为 akari
 ---
 
